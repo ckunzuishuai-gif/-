@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小拾光杂货铺</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div class="brand"><span>小拾光</span>杂货铺</div>
+        <div class="nav-links"><a href="#products">商品</a><a href="#benefits">服务</a><a href="#contact">联系</a></div>
+        <button class="cart-button" id="cartButton">🛍️ 0 件 · ¥0</button>
+        <button class="mobile-menu" aria-label="打开菜单">☰</button>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">✨ 每天一点小确幸</div>
+          <h1>把可爱、实用和好价格一起装进购物车。</h1>
+          <p>精选居家、文具、数码小物与香氛礼品，适合自用，也适合送给在乎的人。</p>
+          <div class="hero-actions"><a class="primary" href="#products">马上逛逛</a><a class="secondary" href="#benefits">查看保障</a></div>
+        </div>
+        <div class="hero-card">
+          <span class="sale-badge">周末满 99 包邮</span>
+          <div class="hero-emoji">🛍️</div>
+          <h2>本周精选小物</h2>
+          <p>8 款人气单品，最低 ¥15 起。</p>
+        </div>
+      </section>
+
+      <section class="toolbar" id="products">
+        <label class="search-box">🔎<input id="searchInput" placeholder="搜索马克杯、收纳、香氛..." /></label>
+        <div class="categories" id="categories"></div>
+      </section>
+
+      <section class="product-grid" id="productGrid" aria-live="polite"></section>
+
+      <section class="benefits" id="benefits">
+        <div><span>🚚</span><h3>48 小时发货</h3><p>现货小商品快速打包，物流进度实时可查。</p></div>
+        <div><span>🛒</span><h3>满 99 包邮</h3><p>组合购买更划算，支持礼品备注与精美包装。</p></div>
+        <div><span>⭐</span><h3>7 天无忧退换</h3><p>未拆封商品可退换，让你买得放心。</p></div>
+      </section>
+
+      <footer id="contact">
+        <div><strong>小拾光杂货铺</strong><p>客服时间：周一至周日 09:00-21:00</p></div>
+        <a href="mailto:hello@xiaoshiguang.example">hello@xiaoshiguang.example</a>
+      </footer>
+    </main>
+    <script src="src/main.js"></script>
+  </body>
+</html>
